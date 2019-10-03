@@ -39,7 +39,7 @@ LED status, Timestamp.
 
 **Installation/execution notes for the C code in this repository:**  
 All the code in this repository should be executed using the following command:  
-'make <target>'
+-'make <target>'
 where <target> has four choices
 -frdm_release
 -frdm_debug
