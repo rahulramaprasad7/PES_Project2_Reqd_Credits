@@ -46,7 +46,7 @@ Where, "target" has four choices
 - frdm_debug  
 - pc_release  
 - pc-debug  
-Always run the 'make clean' command before rebuilding other targets.
+Always run the 'make clean' command before rebuilding other targets.  
 Executing the above command results in .exe file which can be executed on the pc target and .axf file which can be executed on FRDM board.  
 This project has the following requirements, that are fulfilled using the aforementioned command:  
 - ARM-GCC cross-compiler : The 'arm-none-eabi-gcc' command is used to compile the FRDM board target code
