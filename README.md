@@ -54,8 +54,10 @@ Where, "target" has four choices
 - pc_release  
 - pc-debug  
 Always run the 'make clean' command before rebuilding other targets.  
-Executing the above command results in .exe file which can be executed on the pc target and .axf file which can be executed on FRDM board.  
+Executing the above command results in .exe file which can be executed on the pc target by right-clicking and choosing terminal and .axf file which can be executed on FRDM board by clicking the debug option.  
 This project has the following requirements, that are fulfilled using the aforementioned command:  
 - ARM-GCC cross-compiler : The 'arm-none-eabi-gcc' command is used to compile the FRDM board target code
 - Macro flag : The '-D $(target_macro_definition)' to compile the target specific sections of code 
-- No errors and warnings: The -Wall flag enables a set of warnings, and the -Werror flag treats the warnings as errors. Since the output of the compiler shows no error, the code in this repo is without any compiler warnings and errors
+- No errors and warnings: The -Wall flag enables a set of warnings, and the -Werror flag treats the warnings as errors. Since the output of the compiler shows no error, the code in this repo is without any compiler warnings and errors  
+- To enable the RTC, connect a Jumper wire between Pin PTC1 and Pin PTC3
+
