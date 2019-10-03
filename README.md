@@ -46,7 +46,7 @@ This folder contains the object files, which are created after the compilation o
 
 **Installation/execution notes for the C code in this repository:**  
 All the code in this repository should be executed using the following command:  
-- >*make -r -j3 "target"*    
+>*make -r -j3 "target"*  
 Where, "target" has four choices
 - frdm_release: This target builds the output for the KL25Z.The output LEDs will change according to a LUT, but no log output
 will be available.  
