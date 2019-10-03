@@ -34,6 +34,7 @@ LEDs, touch sensor detection, RTC Timestamp.
 **Folder pc_includes:** 
 This folder contains user defined source and header files which contain functions which are specific only to the PC such as printing
 LED status, Timestamp.
+
 ---
 
 **Installation/execution notes for the C code in this repository:**  
