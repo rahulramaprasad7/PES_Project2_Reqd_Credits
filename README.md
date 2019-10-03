@@ -1,4 +1,3 @@
-This folder contains the object files, which are created after the compilation of all the source files. This folder also contains the output of the compilation process which is '.axf' file. The '.axf' file will be executed on the FRDM board.
 # PES Project 2 Readme
 
 **Team Members:** 
