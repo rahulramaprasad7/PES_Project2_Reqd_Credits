@@ -8,7 +8,7 @@
 ---
 
 **Description of repository contents:**  
->This repository contains nine folders, each having multiple source and header files. The description of the folders are as follows:  
+>This repository contains ten folders, each having multiple source and header files. The description of the folders are as follows:  
 
 **Folder board:**  
 This folder contains the library and source files related to the KL25Z FRDM board which have pin init functions and configuration functions. 
@@ -21,6 +21,9 @@ This folder contains drivers for clock, gpio, communication protocols, touch sen
 
 **Folder utilities:** 
 This folder contains source and header file which facilitate the debugging process.
+
+**Folder startup:**
+This folder contains source and header file for the boot process of the freedom board.
 
 **Folder source_common:** 
 This folder contains source files which are common to all targets and are compiled based on the macro definitions. The application is made
