@@ -49,14 +49,13 @@ All the code in this repository should be executed using the following command:
 - *make -r -j3 "target"*  
 Where, "target" has four choices
 - frdm_release: This target builds the output for the KL25Z.The output LEDs will change according to a LUT, but no log output
-will be available  
+will be available.  
 - frdm_debug: This target builds the output for the KL25Z. The output LEDs will change according to a LUT, and a log output
-of the status of LED, current time, and time elapsed since the
-last LED transition is available  
+of the status of LED, current time, and time elapsed since the last LED transition is available.  
 - pc_release: This target builds the output for the PC. The output LEDs will print on console according to a LUT, 
 and a log output of the status of LED, current time, and time elapsed since the last LED transition is available  
 - pc-debug:  This target builds the output for the PC. The output LEDs will print according to a LUT, but no log output
-will be available  
+will be available.  
 Always run the 'make clean' command before rebuilding other targets.  
 Executing the above command results in .exe file which can be executed on the pc target by right-clicking and choosing terminal and .axf file which can be executed on FRDM board by clicking the debug option.  
 This project has the following requirements, that are fulfilled using the aforementioned command:  
