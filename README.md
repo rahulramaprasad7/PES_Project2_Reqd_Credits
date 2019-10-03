@@ -46,7 +46,7 @@ All the code in this repository should be executed using the following command:
 -pc_release
 -pc-debug  
 Executing the above command results in .exe file which can be executed on the pc target and .axf file which can be executed on FRDM board
-This project has the following requirements, that are fulfilled using the aforementioned command:
+This project has the following requirements, that are fulfilled using the aforementioned command:  
 - ARM-GCC cross-compiler : The 'arm-none-eabi-gcc' command is used to compile the FRDM board target code
 - GCC C99 complier: The '-std=c99' flag uses the C99 compiler to complie the pc target code
 - Macro flag : The '-D $(target_macro_definition)' to compile the target specific sections of code 
