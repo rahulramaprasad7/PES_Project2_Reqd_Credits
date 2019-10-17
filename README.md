@@ -1,5 +1,8 @@
 # PES Project 2 Readme
 
+Uploaded main.c on 16 Oct 2019, because the file wasn't pushed to the repo while submitting.  
+**main.c was uploaded in the plagiarism check PDF before the due date and time on canvas**, and the completed project was demoed to TA Sorabh on the due date in class.
+
 **Team Members:** 
 - Prayag Milan Desai
 - Rahul Ramaprasad 
